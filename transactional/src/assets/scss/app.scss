@@ -47,10 +47,28 @@
   margin-top: 30px;
 }
 
+a.link-remove{
+  color:#1a1c1f !important;
+  text-decoration: none !important;
+}
+
 @media only screen and (max-width:596px){
   .v-middle{
-    padding-top: 80px !important;
+    padding-top: 40px !important;
     height: auto;
+  }
+
+  #masthead{
+    padding-bottom:30px;
+  }
+
+  a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
   }
 }
 
@@ -97,4 +115,8 @@
 
 .offer-bg{
   background: #F8E71C;
+}
+
+.preview-text{
+  display: none !important;
 }
