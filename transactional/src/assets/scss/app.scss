@@ -1,122 +1,167 @@
 @import 'settings';
 @import 'foundation';
 
+// Client fixes
+
+html, body, table.body, div, p, a, li, td{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+div, p, a, li, td{
+  -webkit-text-size-adjust:none;
+}
+
+
+// Modular CSS
+
 .text-serif{
   font-family: Georgia, serif;
 }
 
 .grey-text{
-  color: #ccc;
+  color: #A3A4A5;
 }
 
-.m-t-0{
-  Margin-top:0px;
-  margin-top: 0px;
+.lighter{
+  font-weight: lighter;
+}
+
+hr{
+  border-color: #ebebeb;
 }
 
 .m-b-0{
-  Margin-bottom:0px;
+  Margin-bottom: 0px;
   margin-bottom: 0px;
 }
 
+.m-t-0{
+  Margin-top: 0px;
+  margin-top: 0px;
+}
+
 .m-t-1{
-  Margin-top:15px;
-  margin-top: 15px;
+  Margin-top: 8px;
+  margin-top: 8px;
 }
 
 .m-b-1{
-  Margin-bottom:15px;
-  margin-bottom: 15px;
+  Margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-.p-t-2{
-  padding-top: 30px;
+.m-b-2{
+  Margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.m-t-2{
+  Margin-top: 16px;
+  margin-top: 16px;
+}
+
+.m-t-3{
+  Margin-top: 24px;
+  margin-top: 24px;
+}
+
+.p-t-3{
+  padding-top: 24px;
 }
 
 .p-b-0{
-  padding-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+.p-l-1{
+  padding-left: 24px;
 }
 
 .v-middle{
-  vertical-align: middle !important;
-  height: 388px;
+  vertical-align: middle;
 }
 
-#label{
-  Margin-top: 30px;
-  margin-top: 30px;
+// CSS For Base Layout
+
+.header{
+  Margin-top: 10px;
+  margin-top: 10px;
+  background-color: #f5f5f5;
 }
 
-a.link-remove{
-  color:#1a1c1f !important;
-  text-decoration: none !important;
+.content{
+  background-color: #ffffff;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 2px 3px 0px #d9d9d9;
 }
 
-@media only screen and (max-width:596px){
-  .v-middle{
-    padding-top: 40px !important;
-    height: auto;
-  }
-
-  #masthead{
-    padding-bottom:30px;
-  }
-
-  a[x-apple-data-detectors] {
-      color: inherit !important;
-      text-decoration: none !important;
-      font-size: inherit !important;
-      font-family: inherit !important;
-      font-weight: inherit !important;
-      line-height: inherit !important;
-  }
+.brand-bar{
+  background-color: #e94402;
+  height: 10px;
 }
 
-@media only screen and (max-width:500px){
-  .v-middle{
-    padding-top: 50px !important;
-  }
+.t-b-content{
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-@media only screen and (max-width:420px){
-  .v-middle{
-    padding-top: 30px !important;
-  }
-
-  #hr{
-    display: none;
-  }
+.items{
+  Margin-top: 24px;
+  margin-top: 24px;
 }
 
-@media only screen and (max-width:380px){
-  .v-middle{
-    padding-top: 30px !important;
-  }
-
-  #label{
-    Margin-top: 15px !important;
-    margin-top: 15px !important;
-  }
+.p-label{
+  font-size: 13px;
+  color: #1a1c1f;
+  font-weight: normal;
 }
 
-@media only screen and (max-width:340px){
-  .v-middle{
-    padding-top: 25px !important;
-  }
-
-  .visit-hide{
-    display: none;
-  }
+.section-label{
+  // Margin-left: -4px;
+  // margin-left: -4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #A3A4A5;
+  letter-spacing: 0.2px;
 }
 
-.bg-dark{
-  background: #393a3d;
+.item-break{
+  Margin-top: 8px;
+  margin-top: 8px;
+  Margin-bottom: 0px;
+  margin-bottom: 0px;
+  opacity: 0.5;
 }
 
-.offer-bg{
-  background: #F8E71C;
+.hr-fix{
+  line-height: 0px !important;
 }
 
-.preview-text{
-  display: none !important;
+.items-date{
+  margin-top: 10px;
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: $secondary-color;
+}
+
+.footer-content{
+  padding-top:24px;
+}
+
+.download-title{
+  color: #606060;
+  letter-spacing: 0.2px;
+}
+
+.footer-break{
+  width: 40px;
+  Margin-top: 16px;
+  margin-top: 16px;
+  Margin-bottom: 16px;
+  margin-bottom: 16px;
+  border-color: #606060;
 }

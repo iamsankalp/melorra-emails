@@ -7,11 +7,7 @@ Base Layout
 <container class="header">
   <row>
     <columns>
-      <center>
-        <a href="https://www.melorra.com">
-          <img class="float-center" src="assets/img/logo_header.png" width="97" height="66" style="max-height:66px; font-size: 16px; text-transform: uppercase; letter-spacing: 2px;" alt="Melorra">
-        </a>
-      </center>
+      <img class="float-center" src="assets/img/logo_header.png" width="97" height="66" style="max-width:97px; max-height:66px;">
     </columns>
   </row>
 </container>
@@ -29,10 +25,10 @@ Base Layout
     <columns class="t-b-content">
 
       <h3 class="text-serif text-center">
-        Sankalp, we love what you’ve chosen. Order confirmed.
+        Sankalp, your order is on its way.
       </h3>
       <p class="grey-text text-center">
-        Get ready to <b>Wear the now!</b>
+        It’ll be with you very soon
       </p>
 
       <hr>
@@ -58,7 +54,7 @@ Base Layout
 
     <row>
       <columns class="items-date">
-        <h6 class="p-label"><span class="section-label">Delivery by :</span> May 26, 2016</h6>
+        <h6 class="section-label">Items Shipped</h6>
       </columns>
     </row>
 
@@ -72,20 +68,22 @@ Base Layout
 
       <row>
         <columns small="12" large="3">
-          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/RM/JPG/S16PRM13P_F.jpg" width="100" style="max-width:100px; min-height:100px;" alt="Jewellery image">
+          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/RM/JPG/S16PRM13P_F.jpg" width="130" style="max-width:130px; min-height:130px;">
         </columns>
         <columns small="7" large="7" class="v-middle">
 
-          <h5 class="text-serif">Petite Fleur</h5>
+          <h4 class="text-serif">Petite Fleur</h4>
           <p class="grey-text">
-            Neckwear
+            Neckwear &bull; ₹12,490
           </p>
 
         </columns>
         <columns small="5" large="2" class="v-middle">
-          <p class="text-right">
-            <b>₹12,490</b>
-          </p>
+          <div align="right">
+            <button href="#" class="radius outline">
+              Track
+            </button>
+          </div>
         </columns>
       </row>
     </div>
@@ -100,54 +98,22 @@ Base Layout
 
       <row>
         <columns small="12" large="3">
-          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF25F_F.jpg" width="100" style="max-width:100px; min-height:100px;">
+          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF25F_F.jpg" width="130" style="max-width:130px; min-height:130px;">
         </columns>
         <columns small="7" large="7" class="v-middle">
 
-          <h5 class="text-serif">Loopy Loop</h5>
+          <h4 class="text-serif">Loopy Loop</h4>
           <p class="grey-text">
-            Ring &bull; Size 9.5
+            Ring &bull; Size 9.5 &bull; ₹12,490
           </p>
 
         </columns>
         <columns small="5" large="2" class="v-middle">
-          <p class="text-right">
-            <b>₹12,490</b>
-          </p>
-        </columns>
-      </row>
-    </div>
-
-    <row class="items-date">
-      <columns>
-        <h6 class="p-label"><span class="section-label">Delivery by :</span> June 1, 2016</h6>
-      </columns>
-    </row>
-
-    <div class="item">
-      <row>
-        <columns>
-          <p class="hr-fix">&nbsp;</p>
-          <hr class="item-break">
-        </columns>
-      </row>
-
-      <row>
-        <columns small="12" large="3">
-          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF07D_F.jpg" width="100" style="max-width:100px; min-height:100px;">
-        </columns>
-        <columns small="7" large="7" class="v-middle">
-
-          <h5 class="text-serif">Lateral Lattice</h5>
-          <p class="grey-text">
-            Earrings
-          </p>
-
-        </columns>
-        <columns small="5" large="2" class="v-middle">
-          <p class="text-right">
-            <b>₹12,490</b>
-          </p>
+          <div align="right">
+            <button href="#" class="radius outline">
+              Track
+            </button>
+          </div>
         </columns>
       </row>
     </div>
@@ -174,9 +140,9 @@ Base Layout
     </columns>
 
     <columns small="12" large="6">
-      <h6 class="section-label text-right small-text-left">Total</h6>
+      <h6 class="section-label text-right small-text-left">Payment Due</h6>
       <p class="text-right small-text-left">
-        <b>₹37,470</b>
+        <b>₹0</b>
       </p>
 
       <h6 class="section-label text-right small-text-left m-t-1">Payment Method</h6>
@@ -188,13 +154,75 @@ Base Layout
 
   <spacer size="24"></spacer>
 
-  <row>
+  <row class="items-date">
     <columns>
-      <center>
-        <button href="#" class="radius">Track order status</button>
-      </center>
+      <h6 class="p-label">YET TO BE SHIPPED</h6>
+      <spacer size="8"></spacer>
+      <h6 class="p-label"><span class="section-label">Delivery by :</span> June 1, 2016</h6>
     </columns>
   </row>
+
+  <div class="item">
+    <row>
+      <columns>
+        <p class="hr-fix">&nbsp;</p>
+        <hr class="item-break">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12" large="3">
+        <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF07D_F.jpg" width="100" style="max-width:100px; min-height:100px;">
+      </columns>
+      <columns small="7" large="7" class="v-middle">
+
+        <h5 class="text-serif grey-text">Lateral Lattice</h5>
+        <p class="grey-text">
+          Earrings
+        </p>
+
+      </columns>
+      <columns small="5" large="2" class="v-middle">
+        <p class="text-right grey-text">
+          ₹12,490
+        </p>
+      </columns>
+    </row>
+  </div>
+
+  <row class="items-date">
+    <columns>
+      <h6 class="p-label"><span class="section-label">Delivery by :</span> June 7, 2016</h6>
+    </columns>
+  </row>
+
+  <div class="item">
+    <row>
+      <columns>
+        <p class="hr-fix">&nbsp;</p>
+        <hr class="item-break">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12" large="3">
+        <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF07D_F.jpg" width="100" style="max-width:100px; min-height:100px;">
+      </columns>
+      <columns small="7" large="7" class="v-middle">
+
+        <h5 class="text-serif grey-text">Lateral Lattice</h5>
+        <p class="grey-text">
+          Earrings
+        </p>
+
+      </columns>
+      <columns small="5" large="2" class="v-middle">
+        <p class="text-right grey-text">
+          ₹12,490
+        </p>
+      </columns>
+    </row>
+  </div>
 
   <hr style="width:40px;">
 
@@ -207,7 +235,7 @@ Base Layout
 
         <spacer size="8"></spacer>
 
-        <img src="assets/img/signature.png" width="74" style="max-width:74px;">
+        <img src="assets/img/signature.png" width="74px" style="max-width:74px;">
       </center>
     </columns>
   </row>
