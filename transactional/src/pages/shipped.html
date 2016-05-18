@@ -1,5 +1,5 @@
 ---
-Base Layout
+subject: Order Shipped
 ---
 
 <spacer size="30"></spacer>
@@ -7,7 +7,11 @@ Base Layout
 <container class="header">
   <row>
     <columns>
-      <img class="float-center" src="assets/img/logo_header.png" width="97" height="66" style="max-width:97px; max-height:66px;">
+      <center>
+        <a href="https://www.melorra.com">
+          <img class="float-center" src="assets/img/logo_header.png" width="97" height="66" style="max-height:66px; font-size: 16px; text-transform: uppercase; letter-spacing: 2px;" alt="Melorra">
+        </a>
+      </center>
     </columns>
   </row>
 </container>
@@ -27,6 +31,7 @@ Base Layout
       <h3 class="text-serif text-center">
         Sankalp, your order is on its way.
       </h3>
+      <spacer size="4"></spacer>
       <p class="grey-text text-center">
         It’ll be with you very soon
       </p>
@@ -41,9 +46,7 @@ Base Layout
 
       <h2 style="font-weight:300">
         Order #100000991
-        <small class="p-label">
-          <span class="section-label">/ DATE :</span> May 6, 2016
-        </small>
+        <small class="p-small" style="color:#A3A4A5;">Placed on May 6, 2016</small>
       </h2>
 
     </columns>
@@ -68,13 +71,13 @@ Base Layout
 
       <row>
         <columns small="12" large="3">
-          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/RM/JPG/S16PRM13P_F.jpg" width="130" style="max-width:130px; min-height:130px;">
+          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/RM/JPG/S16PRM13P_F.jpg" width="130" style="font-size: 13px; color: #a3a4a5; max-width:130px !important; min-height:130px !important;" alt="Jewellery image">
         </columns>
         <columns small="7" large="7" class="v-middle">
 
           <h4 class="text-serif">Petite Fleur</h4>
-          <p class="grey-text">
-            Neckwear &bull; ₹12,490
+          <p class="grey-text p-small">
+            Neckwear &#9679; ₹12,490
           </p>
 
         </columns>
@@ -83,6 +86,10 @@ Base Layout
             <button href="#" class="radius outline">
               Track
             </button>
+            <spacer size="4"></spacer>
+            <p class="p-small grey-text text-center small-text-right">
+              Delivery by: May 24
+            </p>
           </div>
         </columns>
       </row>
@@ -98,13 +105,13 @@ Base Layout
 
       <row>
         <columns small="12" large="3">
-          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF25F_F.jpg" width="130" style="max-width:130px; min-height:130px;">
+          <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF25F_F.jpg" width="130" style="font-size: 13px; color: #a3a4a5; max-width:130px !important; min-height:130px !important;" alt="Jewellery image">
         </columns>
         <columns small="7" large="7" class="v-middle">
 
           <h4 class="text-serif">Loopy Loop</h4>
-          <p class="grey-text">
-            Ring &bull; Size 9.5 &bull; ₹12,490
+          <p class="grey-text p-small">
+            Ring &#9679; Size 9.5 &#9679; ₹12,490
           </p>
 
         </columns>
@@ -113,6 +120,10 @@ Base Layout
             <button href="#" class="radius outline">
               Track
             </button>
+            <spacer size="4"></spacer>
+            <p class="p-small grey-text text-center small-text-right">
+              Delivery by: May 24
+            </p>
           </div>
         </columns>
       </row>
@@ -132,7 +143,7 @@ Base Layout
   <row>
     <columns small="12" large="6" class="p-l-1">
       <h6 class="section-label">Ship To</h6>
-      <p>
+      <p class="p-small">
         197, 6th Main, 1st Cross<br>
         Matrix Partners India, Indiranagar <br>
         Bengaluru - Karnataka 560075
@@ -141,24 +152,24 @@ Base Layout
 
     <columns small="12" large="6">
       <h6 class="section-label text-right small-text-left">Payment Due</h6>
-      <p class="text-right small-text-left">
-        <b>₹0</b>
+      <p class="p-big text-right small-text-left">
+        <b>₹1,234</b>
       </p>
 
       <h6 class="section-label text-right small-text-left m-t-1">Payment Method</h6>
-      <p class="text-right small-text-left">
-        4722 60xx xxxx 1232
+      <p class="p-small text-right small-text-left">
+        Cash on Delivery
       </p>
     </columns>
   </row>
 
-  <spacer size="24"></spacer>
+  <hr style="width:40px;">
 
   <row class="items-date">
     <columns>
-      <h6 class="p-label">YET TO BE SHIPPED</h6>
-      <spacer size="8"></spacer>
-      <h6 class="p-label"><span class="section-label">Delivery by :</span> June 1, 2016</h6>
+      <h4 class="text-center" style="font-weight:300">Yet to be shipped</h4>
+      <spacer size="24"></spacer>
+      <h6 class="p-small"><span class="section-label">Delivery by :</span> June 1, 2016</h6>
     </columns>
   </row>
 
@@ -172,12 +183,12 @@ Base Layout
 
     <row>
       <columns small="12" large="3">
-        <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF07D_F.jpg" width="100" style="max-width:100px; min-height:100px;">
+        <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/NT/PNG/320/W15WNT12H_F.png" width="100" style="font-size: 13px; color: #a3a4a5; max-width:100px !important; min-height:100px !important;" alt="Jewellery image">
       </columns>
       <columns small="7" large="7" class="v-middle">
 
-        <h5 class="text-serif grey-text">Lateral Lattice</h5>
-        <p class="grey-text">
+        <h5 class="text-serif grey-text">Brilliant Crimp</h5>
+        <p class="grey-text p-small">
           Earrings
         </p>
 
@@ -192,7 +203,7 @@ Base Layout
 
   <row class="items-date">
     <columns>
-      <h6 class="p-label"><span class="section-label">Delivery by :</span> June 7, 2016</h6>
+      <h6 class="p-small"><span class="section-label">Delivery by :</span> June 7, 2016</h6>
     </columns>
   </row>
 
@@ -206,12 +217,12 @@ Base Layout
 
     <row>
       <columns small="12" large="3">
-        <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/SF/JPG/W15CSF07D_F.jpg" width="100" style="max-width:100px; min-height:100px;">
+        <img class="float-center" src="https://s3-ap-southeast-1.amazonaws.com/melorra/dev/catalogue/images/NT/PNG/320/W15WNT09S_F.png" width="100" style="font-size: 13px; color: #a3a4a5; max-width:100px !important; min-height:100px !important;" alt="Jewellery image">
       </columns>
       <columns small="7" large="7" class="v-middle">
 
-        <h5 class="text-serif grey-text">Lateral Lattice</h5>
-        <p class="grey-text">
+        <h5 class="text-serif grey-text">Ribbon Loop</h5>
+        <p class="grey-text p-small">
           Earrings
         </p>
 
@@ -229,7 +240,7 @@ Base Layout
   <row>
     <columns>
       <center>
-        <p class="p-label text-center">
+        <p class="p-small text-center">
           Thanking you on behalf of Team Melorra,
         </p>
 
@@ -250,8 +261,8 @@ Base Layout
 
         <spacer size="4"></spacer>
 
-        <p class="p-label text-center" style="color:#9c9c9c">
-          Call us on <a href="tel:+918880050505" style="color: #9c9c9c"><b>+91-8880050505</b></a> &bull; Mail us at <a href="mailto:cs@melorra.com" style="color: #9c9c9c"><b>cs@melorra.com</b></a>
+        <p class="p-small text-center" style="color:#9c9c9c">
+          Call us on <a href="tel:+918880050505" style="color: #9c9c9c"><b>+91-8880050505</b></a> &#9679; Mail us at <a href="mailto:cs@melorra.com" style="color: #9c9c9c"><b>cs@melorra.com</b></a>
         </p>
 
         <hr style="border-color: #323436;">
@@ -280,7 +291,7 @@ Base Layout
 
         <spacer size="8"></spacer>
 
-        <p class="text-center p-label" style="color: #606060;">
+        <p class="text-center p-small" style="color: #606060;">
           Melorra is a registered trademark of August Jewellery Private Limited<br>
           Bengaluru, Karnataka - India
         </p>
