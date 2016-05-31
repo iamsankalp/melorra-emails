@@ -15,6 +15,22 @@ div, p, a, li, td, small, span{
 
 
 // Modular CSS
+
+.preview-text{
+  display: none !important;
+  font-size: 1px;
+  color: #f5f5f5;
+  line-height: 1px;
+  max-height: 0px;
+  max-width: 0px;
+  opacity: 0;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: -99999px;
+}
+
 p, a, li, small{
   letter-spacing: -0.1px;
 }
@@ -33,6 +49,11 @@ p, a, li, small{
 
 hr{
   border-color: #ebebeb;
+}
+
+.hr{
+  width: 100%;
+  background-color: #ebebeb;
 }
 
 .m-b-0{
@@ -89,8 +110,6 @@ hr{
 // CSS For Base Layout
 
 .header{
-  Margin-top: 10px;
-  margin-top: 10px;
   background-color: #f5f5f5;
 }
 
@@ -103,6 +122,7 @@ hr{
 .brand-bar{
   background-color: #e94402;
   height: 4px;
+  width: 100%;
 }
 
 .t-b-content{
