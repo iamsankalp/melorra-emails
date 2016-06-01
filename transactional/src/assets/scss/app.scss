@@ -249,6 +249,15 @@ hr{
 }
 
 @media only screen and (max-width: 596px){
+  a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+  }
+  
   .small-m-r-1{
     Margin-right: 8px;
     margin-right: 8px;
