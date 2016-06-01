@@ -9,7 +9,7 @@ subject: Order confirmed
   <row>
     <columns>
         <h1 class="preview-text">
-          This is preheader text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quas ducimus placeat dicta consectetur incidunt, fugit accusantium, labore assumenda repellat nam error voluptatem rem nihil quae voluptate commodi. Ipsum libero odio, tempore. Eaque pariatur delectus at quibusdam ipsum quidem molestiae totam autem quia fugiat blanditiis iste, atque nesciunt facilis. Temporibus in atque alias consequuntur saepe? Voluptatum voluptatibus magnam sequi sunt ducimus unde, quas eum molestiae! Iure eveniet odit sit quidem, explicabo ut officia est placeat magnam quibusdam assumenda molestiae neque aliquam modi tempora deserunt quasi tempore error enim magni aperiam.
+          This is preheader text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit consequuntur numquam iusto officia delectus nam, ducimus amet sint laboriosam voluptatibus?
         </h1>
     </columns>
   </row>
@@ -28,6 +28,7 @@ subject: Order confirmed
 <spacer size="30"></spacer>
 
 <container class="content">
+
   <spacer size="4" class="brand-bar"></spacer>
 
   <row class="title-block">
@@ -59,8 +60,9 @@ subject: Order confirmed
     </columns>
   </row>
 
+  <spacer size="24"></spacer>
 
-  <div class="items">
+  <wrapper class="items">
 
     <row>
       <columns class="items-date">
@@ -68,11 +70,11 @@ subject: Order confirmed
       </columns>
     </row>
 
-    <div class="item">
+    <wrapper class="item">
       <row>
         <columns>
-          <p class="hr-fix">&nbsp;</p>
-          <hr class="item-break">
+          <spacer size="8"></spacer>
+          <spacer size="1" class="hr-item"></spacer>
         </columns>
       </row>
 
@@ -94,13 +96,13 @@ subject: Order confirmed
           </p>
         </columns>
       </row>
-    </div>
+    </wrapper>
 
-    <div class="item">
+    <wrapper class="item">
       <row>
         <columns>
-          <p class="hr-fix">&nbsp;</p>
-          <hr class="item-break">
+          <spacer size="8"></spacer>
+          <spacer size="1" class="hr-item"></spacer>
         </columns>
       </row>
 
@@ -122,19 +124,20 @@ subject: Order confirmed
           </p>
         </columns>
       </row>
-    </div>
+    </wrapper>
 
     <row class="items-date">
       <columns>
+        <spacer size="8"></spacer>
         <h6 class="p-small"><span class="section-label">Delivery by :</span> June 1, 2016</h6>
       </columns>
     </row>
 
-    <div class="item">
+    <wrapper class="item">
       <row>
         <columns>
-          <p class="hr-fix">&nbsp;</p>
-          <hr class="item-break">
+          <spacer size="8"></spacer>
+          <spacer size="1" class="hr-item"></spacer>
         </columns>
       </row>
 
@@ -158,21 +161,21 @@ subject: Order confirmed
           </p>
         </columns>
       </row>
-    </div>
+    </wrapper>
 
-  </div>
+  </wrapper>
 
   <row>
     <columns>
-      <p class="hr-fix">&nbsp;</p>
-      <hr class="item-break">
+      <spacer size="8"></spacer>
+      <spacer size="1" class="hr-item"></spacer>
+      <spacer size="12"></spacer>
     </columns>
   </row>
 
-  <spacer size="24"></spacer>
-
   <row>
     <columns small="12" large="6" class="p-l-1">
+      <spacer size="12"></spacer>
       <h6 class="section-label">Ship To</h6>
       <p class="p-small">
         197, 6th Main, 1st Cross<br>
@@ -182,12 +185,15 @@ subject: Order confirmed
     </columns>
 
     <columns small="12" large="6">
+      <spacer size="12"></spacer>
       <h6 class="section-label text-right small-text-left">Total</h6>
       <p class="p-big text-right small-text-left">
         <b>₹37,470</b>
       </p>
 
-      <h6 class="section-label text-right small-text-left m-t-1">Payment Method</h6>
+      <spacer size="12"></spacer>
+
+      <h6 class="section-label text-right small-text-left">Payment Method</h6>
       <p class="p-small text-right small-text-left">
         4722 60xx xxxx 1232
       </p>
@@ -204,7 +210,15 @@ subject: Order confirmed
     </columns>
   </row>
 
-  <hr style="width:40px;">
+  <row>
+    <columns small="5"></columns>
+    <columns small="2" large="1">
+        <spacer size="24"></spacer>
+        <spacer size="1" class="hr"></spacer>
+        <spacer size="24"></spacer>
+    </columns>
+    <columns small="5"></columns>
+  </row>
 
   <row>
     <columns>
@@ -234,7 +248,9 @@ subject: Order confirmed
           Call us on <a href="tel:+918880050505" style="color: #9c9c9c"><b>+91-8880050505</b></a> &bull; Mail us at <a href="mailto:cs@melorra.com" style="color: #9c9c9c"><b>cs@melorra.com</b></a>
         </p>
 
-        <hr style="border-color: #323436;">
+        <spacer size="24"></spacer>
+        <spacer size="1" class="hr-dark"></spacer>
+        <spacer size="24"></spacer>
 
         <img class="float-center" src="assets/img/logo_mark.png" width="27" style="max-width:27px" alt="">
 
@@ -242,23 +258,34 @@ subject: Order confirmed
 
         <h3 class="download-title text-center">#WearTheNow</h3>
 
-        <hr class="footer-break">
+        <row>
+          <columns small="5"></columns>
+          <columns small="2" large="1">
+              <spacer size="16"></spacer>
+              <spacer size="1" class="hr-dark-grey"></spacer>
+              <spacer size="24"></spacer>
+          </columns>
+          <columns small="5"></columns>
+        </row>
 
-        <menu>
-          <item>
-            <a href="https://itunes.apple.com/in/app/melorra/id1069319843?mt=8" title="Download Melorra on iPhone">
-              <img class="" src="assets/img/badge_app_store.png" width="110" height style="max-width:110px; min-width:110px; min-height:35px; font-size:13px;" alt="on App Store">
-            </a>
-          </item>
+        <row>
+          <columns small="6" large="6">
+            <div align="right">
+              <a href="https://itunes.apple.com/in/app/melorra/id1069319843?mt=8" title="Download Melorra on iPhone">
+                <img class="float-right small-m-r-1" src="assets/img/badge_app_store.png" width="110" height style="max-width:110px; min-width:110px; min-height:35px; font-size:13px;" alt="on App Store">
+              </a>
+            </div>
+          </columns>
+          <columns small="6" large="6">
+            <div align="left">
+              <a href="https://play.google.com/store/apps/details?id=com.melorra&amp;hl=en" title="Download Melorra on Android">
+              <img class="float-left small-m-l-1" src="assets/img/badge_play_store.png" width="110" style="max-width:110px; min-width:110px; min-height:35px; font-size:13px;"  alt="on Google Play">
+              </a>
+            </div>
+          </columns>
+        </row>
 
-          <item>
-            <a href="https://play.google.com/store/apps/details?id=com.melorra&amp;hl=en" title="Download Melorra on Android">
-              <img class="" src="assets/img/badge_play_store.png" width="110" style="max-width:110px; min-width:110px; min-height:35px; font-size:13px;"  alt="on Google Play">
-            </a>
-          </item>
-        </menu>
-
-        <spacer size="8"></spacer>
+        <spacer size="16"></spacer>
 
         <p class="text-center p-small" style="color: #606060;">
           Melorra is a registered trademark of August Jewellery Private Limited<br>
