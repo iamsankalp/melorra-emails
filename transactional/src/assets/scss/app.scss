@@ -20,6 +20,10 @@ div, p, a, li, td, small, span{
 
 // Modular CSS
 
+.l-h-0{
+  line-height: 0;
+}
+
 .preview-text{
   display: none !important;
   font-size: 1px;
@@ -257,7 +261,7 @@ hr{
       font-weight: inherit !important;
       line-height: inherit !important;
   }
-  
+
   .small-m-r-1{
     Margin-right: 8px;
     margin-right: 8px;
