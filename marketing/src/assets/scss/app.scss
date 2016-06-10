@@ -1,0 +1,283 @@
+@import 'settings';
+@import 'foundation';
+
+// Client fixes
+
+html, body, table.body, div, p, a, li, td{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+div, p, a, li, td, small, span{
+  -webkit-text-size-adjust:none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+
+// Modular CSS
+
+.l-h-0{
+  line-height: 0;
+}
+
+.preview-text{
+  display: none !important;
+  font-size: 1px;
+  color: #f5f5f5;
+  line-height: 1px;
+  max-height: 0px;
+  max-width: 0px;
+  opacity: 0;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: -99999px;
+}
+
+p, a, li, small{
+  letter-spacing: -0.1px;
+}
+
+.text-serif{
+  font-family: Georgia, serif;
+}
+
+.grey-text{
+  color: #A3A4A5;
+}
+
+.lighter{
+  font-weight: lighter;
+}
+
+hr{
+  border-color: #ebebeb;
+  background-color: #ebebeb;
+}
+
+.hr{
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+.hr-item{
+  background-color: #f5f5f5;
+}
+
+.hr-dark{
+  background-color: #323436;
+}
+
+.hr-dark-grey{
+  background-color: #606060;
+}
+
+.m-b-0{
+  Margin-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.m-t-0{
+  Margin-top: 0px;
+  margin-top: 0px;
+}
+
+.m-t-1{
+  Margin-top: 8px;
+  margin-top: 8px;
+}
+
+.m-b-1{
+  Margin-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.m-b-2{
+  Margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.m-t-2{
+  Margin-top: 16px;
+  margin-top: 16px;
+}
+
+.m-t-3{
+  Margin-top: 24px;
+  margin-top: 24px;
+}
+
+.p-t-3{
+  padding-top: 24px;
+}
+
+.p-b-0{
+  padding-bottom: 0;
+}
+
+.p-l-1{
+  padding-left: 24px;
+}
+
+.v-middle{
+  vertical-align: middle;
+}
+
+// CSS For Base Layout
+
+.header{
+  background: #f5f5f5;
+  background-color: #f5f5f5;
+}
+
+.content{
+  background: #ffffff;
+  background-color: #ffffff;
+  // border: 1px solid #EBEBEB;
+  // box-shadow: 0px 2px 3px 0px #d9d9d9;
+}
+
+.brand-bar{
+  background-color: #e94402;
+  height: 4px;
+  width: 100%;
+}
+
+.t-b-content{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+// .items{
+//   Margin-top: 24px;
+//   margin-top: 24px;
+// }
+
+.p-label{
+  font-size: 13px;
+  color: #1a1c1f;
+  font-weight: normal;
+}
+
+.p-small{
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.p-big{
+  font-size: 17px;
+}
+
+.section-label{
+  // Margin-left: -4px;
+  // margin-left: -4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #A3A4A5;
+  // letter-spacing: 0.1px;
+}
+
+.item-break{
+  Margin-top: 8px;
+  margin-top: 8px;
+  Margin-bottom: 0px;
+  margin-bottom: 0px;
+  border-color: #f5f5f5;
+}
+
+.hr-fix{
+  line-height: 0px !important;
+}
+
+// .items-date{
+//   Margin-top: 10px;
+//   margin-top: 10px;
+// }
+
+.footer{
+  background: #393a3d;
+  background-color: #393a3d;
+}
+
+.bg-dark{
+  background: #393a3d;
+  background-color: #393a3d;
+}
+
+.footer-content{
+  padding-top:24px;
+}
+
+.download-title{
+  color: #606060;
+  letter-spacing: 0.1px;
+}
+
+.footer-break{
+  width: 40px;
+  Margin-top: 16px;
+  margin-top: 16px;
+  Margin-bottom: 16px;
+  margin-bottom: 16px;
+  border-color: #606060;
+}
+
+.standout{
+  padding: 16px 12px !important;
+  border: 1px solid #ebebeb;
+}
+
+.track-button{
+  background-color: #ffffff;
+  border: 1px solid #393a3d;
+  border-radius: 3px;
+  color: #393a3d;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  width: 90px;
+  -webkit-text-size-adjust: none;
+}
+
+.button.tertiary a{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media only screen and (max-width: 596px){
+  a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+  }
+
+  .small-m-r-1{
+    Margin-right: -8px;
+    margin-right: -8px;
+  }
+
+  .small-m-l-1{
+    Margin-left: -8px;
+    margin-left: -8px;
+  }
+
+  .small-p-x-1{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .button a{
+    text-align: center !important;
+  }
+}
