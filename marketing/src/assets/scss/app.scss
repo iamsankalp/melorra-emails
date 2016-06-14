@@ -281,3 +281,28 @@ hr{
     text-align: center !important;
   }
 }
+
+
+// Marketing Email Specific CSS
+
+.footer .container{
+  background-color: $secondary-color;
+  background: transparent;
+}
+
+.subtext{
+  color: #9c9c9c;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.label{
+  text-transform: uppercase;
+  color: #9c9c9c;
+}
+
+.image-caption{
+  text-align: center;
+  display: block;
+}
