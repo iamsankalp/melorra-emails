@@ -302,7 +302,17 @@ hr{
   color: #9c9c9c;
 }
 
-.image-caption{
+.small{
+  font-size: 13px;
+  line-height: 17px;
   text-align: center;
   display: block;
+}
+
+.jewel-image{
+  outline: 1px solid #ebebeb;
+}
+
+.image-caption{
+  color: #9c9c9c;
 }
