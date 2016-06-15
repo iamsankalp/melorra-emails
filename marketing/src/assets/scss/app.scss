@@ -282,6 +282,12 @@ hr{
   }
 }
 
+@media all{
+  .button a{
+    text-align: center !important;
+  }
+}
+
 
 // Marketing Email Specific CSS
 
@@ -314,5 +320,7 @@ hr{
 }
 
 .image-caption{
+  Margin-top:8px;
+  margin-top:8px;
   color: #9c9c9c;
 }
