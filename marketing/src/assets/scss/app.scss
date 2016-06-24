@@ -121,7 +121,11 @@ hr{
 }
 
 .p-l-1{
-  padding-left: 24px;
+  padding-left: 8px!important;
+}
+
+.p-r-1{
+  padding-right: 8px!important;
 }
 
 .v-middle{
@@ -320,7 +324,17 @@ hr{
 }
 
 .image-caption{
-  Margin-top:8px;
-  margin-top:8px;
+  Margin-top:4px;
+  margin-top:4px;
   color: #9c9c9c;
+}
+
+.promoted-section{
+  background: #f5f5f5;
+  background-color: #f5f5f5;
+}
+
+.promoted-section .container{
+  background-color: transparent;
+  background: transparent;
 }
